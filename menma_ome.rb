@@ -2,7 +2,7 @@
 
 Plugin.create(:menma_ome) do
 	command(
-		:haruiconsaba,
+		:menma_ome,
 		name: "メンマさんをお祝いする",
 		visible: false,
 		condition: lambda{|opt| true},
