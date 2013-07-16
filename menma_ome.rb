@@ -9,7 +9,7 @@ Plugin.create(:menma_ome) do
 		role: :window
 	 ) do |opt|
 		Thread.new{
-			Post.primary_service.update(:message => "メンマさん(@staring_inferno)御誕生日おめでとうございます！フォロワー外の皆さんもこのツイートをコピーしてお祝いしましょう。 ")
+			Post.primary_service.update(:message => "メンマさん(@menmanist)御誕生日おめでとうございます！フォロワー外の皆さんもこのツイートをコピーしてお祝いしましょう。 ")
 		}
 	end
 end
